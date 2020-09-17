@@ -53,7 +53,7 @@ for player =1:numplayers
     strategy{player} = zeros(max_k, numactions(player)); 
 end
 
-% Calculate player strategoes when using each step k (0 to max_k)
+% Calculate player strategies when using each step k (0 to max_k)
 for k = 0:max_k
     for player=1:numplayers
         %Initialize for random level 0 thinkers
